@@ -1,6 +1,6 @@
 """
 app.py — Streamlit Email Classifier
-Calder AI/ML Internship — Project 2 — Prathamesh Sail
+Calder AI/ML — Project 2 — Prathamesh Sail
 """
 
 import streamlit as st
