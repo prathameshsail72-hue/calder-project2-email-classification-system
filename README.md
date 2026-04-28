@@ -1,9 +1,30 @@
 # 📧 Email Classification System
-### Calder AI/ML Internship — Project 2
+### Calder - Project 2
 **Prathamesh Sail**
 
-## Overview
-End-to-end ML system classifying emails into Inquiry, Complaint, or Feedback using Logistic Regression + TF-IDF on real Kaggle customer support data.
+---
+
+## 🌟 Project Description
+An end-to-end **Machine Learning-based Email Classification System** that automatically categorizes customer emails into **Inquiry**, **Complaint**, or **Feedback**.
+
+This project leverages **Natural Language Processing (NLP)** techniques to simulate a real-world customer support workflow, enabling faster and more accurate email handling.
+
+---
+
+## 💡 Why This Project Matters
+Handling large volumes of customer emails manually is inefficient. This system:
+- ⏳ Reduces manual effort  
+- ⚡ Speeds up response time  
+- 📈 Improves customer experience
+---
+
+## 🧠 Key Features
+- 🔍 Text preprocessing pipeline  
+- 🧾 TF-IDF vectorization  
+- 🤖 Logistic Regression classifier  
+- ⚡ Real-time predictions via Streamlit  
+- 📊 Trained on Kaggle customer support data  
+
 
 ## Project Structure
 ```
@@ -22,19 +43,32 @@ calder-email-classifier/
 └── README.md
 ```
 
-## Run Order
-```bash
-pip install -r requirements.txt
-python prepare_dataset.py
-python src/classifier.py
-streamlit run app.py
-```
+---
 
+## ⚙️ Installation
+```bash
+git clone https://github.com/your-username/calder-email-classifier.git
+cd calder-email-classifier
+pip install -r requirements.txt
 ## Label Mapping
 | Original | Mapped |
 |---|---|
 | Product inquiry + Billing inquiry | Inquiry |
 | Technical issue + Refund + Cancellation | Complaint |
 | Synthetic emails | Feedback |
+```
 
-Built by Prathamesh Sail — Calder AI/ML Internship
+## 🚀 Future Improvements
+Try advanced models (Naive Bayes, SVM, BERT)
+Deploy on Streamlit Cloud / AWS / Render
+Add evaluation metrics dashboard
+Integrate with real email APIs
+
+##🛠️ Tech Stack
+Python
+Scikit-learn
+Pandas, NumPy
+Streamlit
+NLP (TF-IDF)
+
+Built by Prathamesh Sail — Calder AI/ML
