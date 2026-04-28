@@ -64,7 +64,7 @@ Deploy on Streamlit Cloud / AWS / Render
 Add evaluation metrics dashboard
 Integrate with real email APIs
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 Python
 Scikit-learn
 Pandas, NumPy
