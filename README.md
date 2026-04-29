@@ -57,6 +57,15 @@ pip install -r requirements.txt
 | Technical issue + Refund + Cancellation | Complaint |
 | Synthetic emails | Feedback |
 ```
+## Images 
+
+![Single email Input](assets/c1.png)
+
+![Result](assets/c2.png)
+
+![Multiple email Result](assets/c3.png)
+
+---
 
 ## 🚀 Future Improvements
 Try advanced models (Naive Bayes, SVM, BERT)
